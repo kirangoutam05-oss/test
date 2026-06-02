@@ -1,6 +1,77 @@
-git init
-git add .
-git commit -m "Initial website"
-git branch -M main
-git remote add origin https://github.com/your-username/test-site.git
-git push -u origin main
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>My First Netlify Site</title>
+
+  <style>
+
+    body {
+
+      font-family: Arial;
+
+      text-align: center;
+
+      background: #f4f4f4;
+
+      padding: 50px;
+
+    }
+
+    h1 {
+
+      color: #333;
+
+    }
+
+    button {
+
+      padding: 10px 20px;
+
+      font-size: 16px;
+
+      background: black;
+
+      color: white;
+
+      border: none;
+
+      cursor: pointer;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+
+
+  <h1>🚀 Hello from Netlify!</h1>
+
+  <p>This is my first deployed website.</p>
+
+
+
+  <button onclick="changeText()">Click Me</button>
+
+
+
+  <script>
+
+    function changeText() {
+
+      document.querySelector("h1").innerText = "🔥 It Works!";
+
+    }
+
+  </script>
+
+
+
+</body>
+
+</html>
